@@ -1,0 +1,16 @@
+package part_1;
+
+import java.util.Scanner;
+
+public class Tutorial_12 {
+
+	public static void main(String[] args) {
+		Scanner v = new Scanner(System.in);
+		int age = v;
+		
+		switch(age){
+		case 1
+		}
+	}
+
+}
