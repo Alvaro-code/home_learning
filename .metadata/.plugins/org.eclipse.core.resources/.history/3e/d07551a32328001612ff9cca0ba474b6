@@ -1,0 +1,17 @@
+package part_1;
+
+import java.util.Scanner;
+
+public class OP_Table {
+
+	public static void main(String[] args) {
+		Scanner n = new Scanner(System.in);
+		System.out.println("How many programming languages do you want ot list- ");
+		int l = n.nextInt();
+		System.out.println("Number\tProgramming language");
+	    for(int c = 0; c => l; c++){
+	    	
+	    }
+	}
+
+}

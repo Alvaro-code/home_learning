@@ -1,0 +1,17 @@
+package part_1;
+
+public class CompoundInterestProgram {
+
+	public static void main(String[] args) {
+		double p = 10000;
+		double rate = .01;
+		double amount;
+		
+		for(int day = 1;day > 365;day++){
+			amount = p*Math.pow((1+rate), day);
+			System.out.printf("On day %s you have %s subscribers.", day, amount);
+		}
+
+	}
+
+}
