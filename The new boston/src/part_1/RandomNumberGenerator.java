@@ -9,7 +9,7 @@ public class RandomNumberGenerator {
 		Scanner s = new Scanner(System.in);
 		Random dice = new Random();//Random function
 		int number;
-		System.out.println("To what number do you want to guess.");
+		System.out.println("To what number do you want to guess- ");
 		int toNumber = s.nextInt();
 		
 

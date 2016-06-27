@@ -7,7 +7,7 @@ public class Tutorial_28 {
 		int b[] = {1,2,3,3,4};
 		
 		for(int c = 0; c <= b.length; c++){//.length showed the length of the array
-			System.out.println(c + "\t" + b[c]);
+			System.out.println(c+1 + "\t" + b[c]);
 		}
 
 	}

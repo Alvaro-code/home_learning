@@ -1,0 +1,11 @@
+package part_1;
+
+public class TimeClass {
+
+	public static void main(String[] args) {
+		TimeClas time = new TimeClas();
+		time.setTime(12, 21, 60);
+		System.out.println(time.toMilitary());
+	}
+
+}
