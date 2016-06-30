@@ -1,0 +1,14 @@
+package part_1;
+
+public class MultipleConstuctors {
+
+	public static void main(String[] args) {
+		MultipleConstructor hour = new MultipleConstructor();
+		MultipleConstructor hour1 = new MultipleConstructor(34, 12);
+		MultipleConstructor hour2 = new MultipleConstructor(12, 43, 21);
+
+		
+		System.out.println(hour2.toMilitary());
+	}
+
+}

@@ -4,9 +4,8 @@ public class TimeClass {
 
 	public static void main(String[] args) {
 		TimeClas time = new TimeClas();
+		time.setTime(24, 21, 23);
 		System.out.println(time.toMilitary());
-		System.out.println(time.toNormal());
-		time.setTime(20, 21, 23);
 	}
 
 }

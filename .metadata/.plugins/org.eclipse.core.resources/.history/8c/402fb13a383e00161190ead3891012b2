@@ -1,0 +1,11 @@
+package part_1;
+
+public class Ld{
+
+public static void main(String [] args) {
+	L b = new L("lol");
+	L b1 = new L("lol");
+	L b2 = new L("lol");
+	L b3 = new L("lol");
+}
+}
